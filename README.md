@@ -25,12 +25,12 @@
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3UydGttc3VxcmJudWNzMzQ2N3NmcTUwdHI2MnUwYXFoYm1yd3ZjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/O0CmQdUr0IY1i/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWl0YzU3MWRkNDhkcXpiZ3YyNnFmdmM5eGxqODM2YXk1cml0dTg5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jUJtNKKVTdIeD0XreN/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
 **• En entornos reales, los WAF, filtros y sanitizadores detectan y bloquean payloads XSS conocidos. Este prompt resuelve ese obstáculo generando miles de variantes funcionales con diferentes codificaciones, capaces de evadir filtros sin alterar la ejecución del payload.** 
 
 <br>
 
-### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDhyZGR4OThlcGM4YTQ3MTZjamh5ZTM5b2FodWNicXVvdGJ5cjg2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MWHiGvNPMm0GJ22FHy/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNno3ZDRwY3c1Zmh2YXRibzgybWN4eGY0bjgzMHQ3eGI3MDVjN3h4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VZqu5PIIcBBMkRkuPv/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
 
 • Automatiza la generación de variantes codificadas sin esfuerzo manual.<br>
 
