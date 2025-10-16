@@ -14,7 +14,7 @@
  ### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BlcDcwN3ptczRxbDJyZ2J6MGMyeXAxNmQ2bnphbGZoN3Z5ZXZleSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/D34Wn98AYstonHXdU0/giphy.gif" width = 75px>  </picture> Promt ia codificación de payload
 <br>
 
- **Generador avanzado de variantes ofuscadas de payloads XSS diseñado para uso en laboratorios de seguridad web, que transforma strings e identificadores sin romper la ejecución ni la sintaxis del payload original.** 
+ **Prompt diseñado para generar automáticamente variantes codificadas de payloads XSS sin romper su ejecución ni estructura. Permite aplicar múltiples técnicas de encoding (de Base64 a UTF-32, ROT, MIME, escapes JS, entidades HTML, etc.) con control fino sobre qué partes transformar (caracteres especiales, todo el contenido o mezcla segmentada) y con validaciones estrictas para asegurar que las variantes sigan siendo funcionales en navegadores modernos.** 
 <br><br> 
 
 <p align="center">
@@ -26,21 +26,19 @@
 <br>
 
 ### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3UydGttc3VxcmJudWNzMzQ2N3NmcTUwdHI2MnUwYXFoYm1yd3ZjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/O0CmQdUr0IY1i/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
-**• Encontrar XSS hoy no es solo cuestión de inyectar <script>alert(1)</script>. Los WAF modernos, filtros de contenido y validadores detectan y bloquean payloads tradicionales. Esta herramienta soluciona ese obstáculo al generar múltiples variantes funcionales, ofuscadas y evasivas, listas para probar contra filtros y parsers avanzados.** 
+**• En entornos reales, los WAF, filtros y sanitizadores detectan y bloquean payloads XSS conocidos. Este prompt resuelve ese obstáculo generando miles de variantes funcionales con diferentes codificaciones, capaces de evadir filtros sin alterar la ejecución del payload.** 
 
 <br>
 
 ### <picture> <img src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDhyZGR4OThlcGM4YTQ3MTZjamh5ZTM5b2FodWNicXVvdGJ5cjg2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MWHiGvNPMm0GJ22FHy/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
 
-• Ofuscación profunda por bloques Unicode (ASCII, Greek, Cyrillic, Math, etc.) sin romper ejecución.<br>
+• Automatiza la generación de variantes codificadas sin esfuerzo manual.<br>
 
-• Variantes únicas por payload con entropía controlada y reproducción garantizada gracias al seed.<br>
+• Multiplica la evasión: cada payload puede mutar en cientos o miles de formas distintas.<br>
 
-• Bypass de WAF y parsers gracias a técnicas de sustitución, homoglifos y manipulación por carácter (#**).<br>
+• Refuerza la investigación: permite probar cómo cada codificación afecta detección y ejecución.<br>
 
-• Entorno de laboratorio realista para probar payloads en aplicaciones vulnerables sin riesgos.<br>
-
-• Automatización total: ingresás un payload y obtenés cientos o miles de variantes sin esfuerzo.<br><br>
+• Ideal para laboratorio: perfecto para probar bypasses de WAF, CSP, parsers o sanitizadores en un entorno seguro.<br><br>
 
 
 
@@ -50,7 +48,7 @@
 ### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTByazliMmd2MHdheHUzNjFvY3hnd3J4bHljeXU2dG1obThqM3Q3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4LFhpEqZQvmKsYcSPI/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
-- Una herramienta que toma un payload XSS y lo muta en variantes ofuscadas funcionales, aplicando técnicas modernas de evasión, homoglifos, combinaciones Unicode y validación estricta. Ideal para bug bounty, investigación avanzada y bypass de filtros.<br><br>
+- “Una fábrica automática de variantes XSS codificadas que mantiene el payload funcional y rompe filtros como si fueran papel.”<br><br>
  
 #1 — Promt de ia + Ofuscacion de payload.
 
