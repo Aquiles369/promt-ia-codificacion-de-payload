@@ -14,7 +14,7 @@
  ### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BlcDcwN3ptczRxbDJyZ2J6MGMyeXAxNmQ2bnphbGZoN3Z5ZXZleSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/D34Wn98AYstonHXdU0/giphy.gif" width = 75px>  </picture> Promt ia codificación de payload
 <br>
 
- **Prompt diseñado para generar automáticamente variantes codificadas de payloads XSS sin romper su ejecución ni estructura. Permite aplicar múltiples técnicas de encoding (de Base64 a UTF-32, ROT, MIME, escapes JS, entidades HTML, etc.) con control fino sobre qué partes transformar (caracteres especiales, todo el contenido o mezcla segmentada) y con validaciones estrictas para asegurar que las variantes sigan siendo funcionales en navegadores modernos.** 
+ **Prompt diseñado para generar automáticamente variantes codificadas de payloads XSS sin romper su ejecución ni estructura. Permite aplicar múltiples técnicas de encoding (de Base64 a UTF-32, ROT, MIME, escapes JS, entidades HTML, etc.) con control fino sobre qué partes transformar (caracteres especiales, todo el contenido o mezcla segmentada) y con validaciones estrictas para asegurar que las variantes sigan siendo funcionales en navegadores modernos, <a href="https://youtu.be/YKks7QfGdY0" target="_blank" rel="noopener">demo Youtube</a>** 
 <br><br> 
 
 <p align="center">
